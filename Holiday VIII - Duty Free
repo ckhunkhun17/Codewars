@@ -1,0 +1,4 @@
+def duty_free(price, discount, holiday_cost):
+  bottle_savings = (price*discount)/100 
+  bottles_required = (holiday_cost/bottle_savings )
+  return int (bottles_required)
